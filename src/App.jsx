@@ -13,12 +13,12 @@ import { Container } from 'postcss';
 
 function App() {
 
-  // useEffect(() => {
-  //   const scroll = new LocomotiveScroll({
-  //     el: document.querySelector('[data-scroll-container]'),
-  //     smooth: true,
-  //   });
-  // });
+  useEffect(() => {
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector('[data-scroll-container]'),
+      smooth: true,
+    });
+  });
 
   return (
     <div id='main' className='bg-zinc-900' data-scroll-container>
